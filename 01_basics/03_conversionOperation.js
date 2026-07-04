@@ -24,7 +24,7 @@ let valueInNumber = Number(score)
  let someNumber = 33 
 
  let stringNumber = String(someNumber)
-// console.log(stringNumber)
+//console.log(stringNumber)
  //console.log(typeof stringNumber)
 
  //*********************************OPERATIONS*********************************
@@ -41,7 +41,7 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " yash"
 
 let str3 = str1 + str2
 // console.log(str3);
