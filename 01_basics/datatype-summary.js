@@ -7,30 +7,61 @@
 
 // const isLoggedIn = False 
 // const outsideTemp = null
-let userEmail;
+// let userEmail;
 
-const id= symbol('123')
-const anotherId = symbol('123')
+// const id= symbol('123')
+// const anotherId = symbol('123')
 
-//console.log(id == anotherId);
+// //console.log(id == anotherId);
 
-const bigNumber = 2443945803n
+// const bigNumber = 2443945803n
 
 
 
-//Refrence or Non Primitive
+// //Refrence or Non Primitive
 
-// Array , Object , Function 
+// // Array , Object , Function 
 
-const heroes = ["shaktiman" , "spiderman" ,"dogs"]
-let myObj = {
-    namr: "yash",
-    age: 32
-}
+// const heroes = ["shaktiman" , "spiderman" ,"dogs"]
+// let myObj = {
+//     namr: "yash",
+//     age: 32
+// }
 
-const myFunction = function(){
-   //console.log("HEllo World");
-}
+// const myFunction = function(){
+//    //console.log("HEllo World");
+// }
 
-console.log(typeof bigNumber )
+//console.log(typeof bigNumber )
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//****************************** 
+
+//Types of memory
+// Stack (Primitive) , Heap (Non-Primiitve)
+// copy milti h value     referce milti h 
+
+let myYoutubeName = " yashprakash.com"
+
+let anotherName = myYoutubeName
+anotherName = "chaiorcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "usernamr.com",
+    upId: "user@hf"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "jidsji.com"
+
+console.log(userOne.email)
+console.log(usertwo.email)
+// an dono same honge 
+
