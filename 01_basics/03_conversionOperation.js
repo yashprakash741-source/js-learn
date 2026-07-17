@@ -8,7 +8,7 @@ let valueInNumber = Number(score)
 
 
 // "33" => 33
-// "33abc" => NaN
+// "33abc" => NaN(but iska type number hi h)
 //  true => 1; false => 0
 
  let isLoggedIn = 1
@@ -45,6 +45,12 @@ let str2 = " yash"
 
 let str3 = str1 + str2
 // console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
 
 // console.log( (3 + 4) * 5 % 3);
 
